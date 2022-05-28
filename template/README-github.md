@@ -1,13 +1,9 @@
-<div align="center">
-
-# asdf-<YOUR TOOL> [![Build](https://github.com/<YOUR GITHUB USERNAME>/asdf-<YOUR TOOL>/actions/workflows/build.yml/badge.svg)](https://github.com/<YOUR GITHUB USERNAME>/asdf-<YOUR TOOL>/actions/workflows/build.yml) [![Lint](https://github.com/<YOUR GITHUB USERNAME>/asdf-<YOUR TOOL>/actions/workflows/lint.yml/badge.svg)](https://github.com/<YOUR GITHUB USERNAME>/asdf-<YOUR TOOL>/actions/workflows/lint.yml)
-
+# asdf-<YOUR TOOL> [![Build](https://github.com/mitgedanken-lab/asdf-<YOUR TOOL>/actions/workflows/build.yml/badge.svg)](https://github.com/mitgedanken-lab/asdf-<YOUR TOOL>/actions/workflows/build.yml) [![Lint](https://github.com/mitgedanken-lab/asdf-<YOUR TOOL>/actions/workflows/lint.yml/badge.svg)](https://github.com/mitgedanken-lab/asdf-<YOUR TOOL>/actions/workflows/lint.yml)
 
 [<YOUR TOOL>](<TOOL HOMEPAGE>) plugin for the [asdf version manager](https://asdf-vm.com).
 
-</div>
 
-# Contents
+## Contents
 
 - [Dependencies](#dependencies)
 - [Install](#install)
@@ -15,19 +11,19 @@
 - [Contributing](#contributing)
 - [License](#license)
 
-# Dependencies
+### Dependencies
 
 - `bash`, `curl`, `tar`: generic POSIX utilities.
 - `SOME_ENV_VAR`: set this environment variable in your shell config to load the correct version of tool x.
 
-# Install
+### Install
 
 Plugin:
 
 ```shell
 asdf plugin add <YOUR TOOL>
 # or
-asdf plugin add <YOUR TOOL> https://github.com/<YOUR GITHUB USERNAME>/asdf-<YOUR TOOL>.git
+asdf plugin add <YOUR TOOL> https://github.com/mitgedanken-lab/asdf-<YOUR TOOL>.git
 ```
 
 <YOUR TOOL>:
@@ -57,4 +53,4 @@ Contributions of any kind welcome! See the [contributing guide](contributing.md)
 
 # License
 
-See [LICENSE](LICENSE) © [<YOUR NAME>](https://github.com/<YOUR GITHUB USERNAME>/)
+See [LICENSE](LICENSE) © [<YOUR NAME>](https://github.com/mitgedanken-lab/)
